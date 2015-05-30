@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="The Cat in the Hat App"
+        android:id="@+id/textView_title"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:background="#ffbbbbbb"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="The Cat"
+        android:id="@+id/button_the_cat"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:textAllCaps="false"
+        android:background="@color/orange_button"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"
+        android:textSize="@dimen/abc_text_size_medium_material" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Thing 1"
+            android:id="@+id/button_thing_1"
+            android:textAllCaps="false"
+            android:background="@color/orange_button"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"
+            android:textSize="@dimen/abc_text_size_medium_material"
+            android:layout_margin="4dp" />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Thing 2"
+            android:id="@+id/button_thing_2"
+            android:textAllCaps="false"
+            android:background="@color/orange_button"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"
+            android:textSize="@dimen/abc_text_size_medium_material"
+            android:layout_margin="4dp" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Thingamajigger"
+        android:id="@+id/button_thingamajigger"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:textAllCaps="false"
+        android:background="@color/orange_button"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"
+        android:textSize="@dimen/abc_text_size_medium_material"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Sally"
+        android:id="@+id/button_sally"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:textAllCaps="false"
+        android:background="@color/orange_button"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"
+        android:textSize="@dimen/abc_text_size_medium_material"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Nick"
+        android:id="@+id/button_nick"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:textAllCaps="false"
+        android:background="@color/orange_button"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"
+        android:textSize="@dimen/abc_text_size_medium_material"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Dr. Seuss"
+        android:id="@+id/button_seuss"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:textAllCaps="false"
+        android:background="@android:color/holo_red_dark"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"
+        android:textSize="@dimen/abc_text_size_medium_material" />
+
+</LinearLayout>
